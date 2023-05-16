@@ -12,3 +12,5 @@ Quick and dirty temp tutorial
 ![1](https://i.imgur.com/WetyRlR.png)
 ![2](https://i.imgur.com/PQTbnjy.png)
 ![3](https://i.imgur.com/F1QVJDu.png)
+
+Note: Under General, "Run with highest privileges" must be checked for "hidden" to work; so the task runs silently in the background.
