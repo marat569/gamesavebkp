@@ -32,19 +32,18 @@
 SETLOCAL EnableDelayedExpansion
 ::================================CHANGE THESE AS NEEDED=====================================
 
+::Universal Variables
+
 ::Location of the saves -- FOLDER THAT GETS BACKED UP
 set PATH=C:\Users\desktop\Documents\KoeiTecmo\Wolong
+
 ::Location to save the backups to
 set BACKUPPATH=T:\Save Bkp\Wo Long Save Backup
-::Log path
-set LOGPATH=%BACKUPPATH%
-
-::Universal Variables
 
 ::What you want to name your files
 set PREFIX=WL
 
-::File we check for changes
+::File we check for changes - sub-directory of PATH
 set DYNAMICFILE=Savedata\33219362\SAVEDATA00\SAVEDATA.BIN
 
 
@@ -56,7 +55,8 @@ set DYNAMICFILE=Savedata\33219362\SAVEDATA00\SAVEDATA.BIN
 
 :: ====================================== DO NOT CHANGE ANYTHING BELOW =================================
 
-
+::Log path
+set LOGPATH=%BACKUPPATH%
 
 ::FLAG to do a backup only if save has changed, set to 0 if want to backup no matter what
 set /a CHK=1
