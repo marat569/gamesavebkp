@@ -14,3 +14,5 @@ Quick and dirty temp tutorial
 ![3](https://i.imgur.com/F1QVJDu.png)
 
 Note: Under General, "Run with highest privileges" must be checked for "hidden" to work; so the task runs silently in the background.
+
+I personally name the  bat file based on the game I'm using it for, like "wolongsavebkp.bat" -- and having the bat file located in the game's install directory. 
