@@ -139,7 +139,7 @@ pause
 goto END
 
 :RUN
-title Monster Hunter Rise Save Backup by Duxa (/u/Chrushev) v1.5 - 8/18/2018
+title Modular Save Backup - 2023
 if not exist "%SystemRoot%\system32\WindowsPowerShell\v1.0\PowerShell.exe" (set /a PWRSH=0) else (set /a PWRSH=1)
 if not exist "%BACKUPPATH%\%PREFIX%_last_cksum.txt" goto BACKUP
 if %CHK% == 0 goto BACKUP
