@@ -22,7 +22,7 @@
 
 :: If for some reason the install directory is different, change SZIPPATH or WRARPATH
 
-:: The script has legacy code that can be set to run on a timer without windows tasks. I have no idea how it works, and don't suggest using it.
+:: 
 
 :: Details related to other authors can be found on the bottom of the file
  
