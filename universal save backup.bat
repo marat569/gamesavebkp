@@ -55,7 +55,7 @@ set DYNAMICFILE=Savedata\33219362\SAVEDATA00\SAVEDATA.BIN
 
 :: ====================================== DO NOT CHANGE ANYTHING BELOW =================================
 
-::Log path
+::
 set LOGPATH=%BACKUPPATH%
 
 ::
