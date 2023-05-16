@@ -58,13 +58,14 @@ set DYNAMICFILE=Savedata\33219362\SAVEDATA00\SAVEDATA.BIN
 ::Log path
 set LOGPATH=%BACKUPPATH%
 
-::FLAG to do a backup only if save has changed, set to 0 if want to backup no matter what
+::
 set /a CHK=1
-::If you dont want to schedule it and instead would like to use this script as something you run while you play 
-::in the background then set TIMER=1. It will ask you how often you want to run it (in minutes).
+:: 
+::
 set /a TIMER=0
-::Date format - Possible options are US, EU, YMD. Examples: US 08/17/2018 | EU 17/08/2018 | YMD 2018/08/17
+::
 set DATEFORMAT=US
+
 ::If you are not using default path for 7zip or WinRar you can change them here
 ::It is ok to not have either, then standard zip format will be used if thats the case
 ::Reasons to use 7zip - Better compression, free (WILL BE PREFERRED OVER WINRAR IF INSTALLED)
@@ -74,7 +75,7 @@ set WRARPATH=C:\Program Files\WinRAR
 
 
 
-::============DO NOT CHANGE ANYTHING BELOW UNLESS YOU KNOW WHAT YOU ARE DOING================
+::
 if %DATEFORMAT% == US goto DATEVALID
 if %DATEFORMAT% == EU goto DATEVALID
 if %DATEFORMAT% == YMD goto DATEVALID
